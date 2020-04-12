@@ -3,6 +3,7 @@ import AppTemplate from './AppTemplate';
 import Popup from 'reactjs-popup';
 
 import './NewTab.css';
+import { ReactComponent as SearchIcon } from './assets/search-solid.svg';
 import Settings from './Settings';
 
 const searchEngineURLs = {
@@ -32,6 +33,7 @@ export default function NewTabPage() {
             placeholder="Search something..."
             autoComplete="off"
           />
+          <SearchIcon className="search-icon" />
         </form>
 
         <Popup

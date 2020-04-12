@@ -61,7 +61,12 @@ export default function Settings() {
 
         <div className="input-group">
           <label htmlFor="background">Custom background URL:</label>
-          <input name="background" id="background" defaultValue={currentBackgroundUrl} />
+          <input
+            name="background"
+            id="background"
+            defaultValue={currentBackgroundUrl}
+            autoComplete="off"
+          />
         </div>
 
         <div className="input-group">

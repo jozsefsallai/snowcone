@@ -1,0 +1,48 @@
+# Snowcone
+
+Dead-simple, privacy-first new tab page. Snowcone is a Chrome extension that replaces your new tab page with a lightweight and minimal alternative that respects your privacy.
+
+**What it does?**
+- Search using a variety of search engines (DuckDuckGo, Google, Bing, Qwant)
+- Switch between light and dark mode
+- Specify a custom background
+
+**What it doesn't do?**
+- Send error and usage logs
+- Put your searches through another website
+- Run in the background at all times
+
+## Installation
+
+The extension is currently in a very early stage, so it's not yet available in the Chrome Web Store. Instead, you have to [download the unpacked zip from the Releases page](https://github.com/jozsefsallai/snowcone/releases) and load it in `chrome://extensions` (after enabling Developer Mode).
+
+## Planned Features
+- Custom bookmarks
+- More customization options
+
+## Development
+
+The extension is a React app. If you want to contribute, you need to have Node.js installed.
+
+**Clone the repo:**
+
+```sh
+git clone git@github.com:jozsefsallai/snowcone.git
+```
+
+**Install the dependencies:**
+
+```
+npm i -g yarn
+yarn
+```
+
+**Start the development server with hot reload:**
+
+```
+yarn start
+```
+
+## License
+
+MIT. Search icon by [Font Awesome](http://fontawesome.com/).

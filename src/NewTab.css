@@ -26,6 +26,14 @@
   outline: none;
 }
 
+.search-box .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  width: 22px;
+}
+
 .settings {
   position: fixed;
   bottom: 15px;
