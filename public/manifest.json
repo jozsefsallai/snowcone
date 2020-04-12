@@ -1,0 +1,16 @@
+{
+  "short_name": "Snowcone",
+  "name": "Snowcone New Tab",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#f3f3f3",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "images/logo-64.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

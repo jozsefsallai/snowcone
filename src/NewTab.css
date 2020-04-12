@@ -1,0 +1,42 @@
+.wrapper {
+  height: 100vh;
+}
+
+.search-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-box input, .settings {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.search-box input {
+  font-size: 1rem;
+  padding: 1em 3em;
+  border-radius: 50px;
+  border: 0;
+  background: var(--input-background);
+  color: var(--input-foreground);
+  width: 30em;
+  outline: none;
+}
+
+.settings {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: .9em 1em;
+  background: #dc728f;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+}
