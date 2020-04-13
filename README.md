@@ -14,7 +14,7 @@ Dead-simple, privacy-first new tab page. Snowcone is a Chrome extension that rep
 
 ## Installation
 
-The extension is currently in a very early stage, so it's not yet available in the Chrome Web Store. Instead, you have to [download the unpacked zip from the Releases page](https://github.com/jozsefsallai/snowcone/releases) and load it in `chrome://extensions` (after enabling Developer Mode).
+Install it from the Chrome Web Store: https://chrome.google.com/webstore/detail/snowcone-new-tab/bcnfacimbccddckdhmkpjcaefcmbpnng
 
 ## Planned Features
 - Custom bookmarks
